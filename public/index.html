@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlexForge Fitness | Transform Your Limits</title>
+  <!-- Meta Descriptions for SEO -->
+  <meta name="description" content="Forge the ultimate version of yourself at FlexForge Fitness. Get 24/7 access, elite personal training, premium amenities, and customized nutrition. Claim your free trial pass today!">
+  <meta name="keywords" content="gym, fitness, workout, personal trainer, bodybuilding, cardio, steam room, BMI calculator, gym pass">
+  <meta name="author" content="FlexForge Fitness">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="site-header">
+    <div class="header-container">
+      <a href="#" class="logo" id="header-logo">
+        <span class="logo-flex">FLEX</span><span class="logo-forge">FORGE</span>
+      </a>
+      
+      <!-- Hamburger Menu for Mobile -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="navbar" id="site-navbar">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#pricing" class="nav-link">Membership</a></li>
+          <li class="nav-item"><a href="#bmi" class="nav-link">BMI Calculator</a></li>
+          <li class="nav-item"><a href="#site-header" class="nav-link-cta btn-neon-outline" id="nav-cta-btn">Book Free Trial</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="tagline-badge">
+        <span class="pulse-dot"></span> ELITE ATHLETIC CLUB
+      </div>
+      <h1 class="hero-headline">
+        TRANSFORM <br>YOUR <span class="highlight-neon-lime">LIMITS</span>
+      </h1>
+      <p class="hero-subheadline">
+        Forge the ultimate version of yourself. Access state-of-the-art facilities, elite coaching, and a community driven by raw performance.
+      </p>
+      
+      <div class="hero-ctas">
+        <button class="btn-neon-fill open-booking-modal-btn" data-plan="Free 1-Day Pass" id="hero-primary-cta">
+          Get a Free 1-Day Pass <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <a href="#features" class="btn-glass" id="hero-secondary-cta">Explore Amenities</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-number highlight-neon-cyan">24/7</div>
+          <div class="stat-label">Full Access</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number highlight-neon-lime">150+</div>
+          <div class="stat-label">Elite Equipment</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number highlight-neon-cyan">15+</div>
+          <div class="stat-label">Expert Coaches</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features / Amenities Section -->
+  <section class="features" id="features">
+    <div class="section-container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-tag highlight-neon-lime">PREMIUM AMENITIES</span>
+        <h2 class="section-title">FORGED FOR PEAK PERFORMANCE</h2>
+        <p class="section-subtitle">We provide the tools, environment, and expertise. You provide the grit.</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card reveal-on-scroll" id="feature-card-1">
+          <div class="feature-icon-wrapper cyan-glow">
+            <i class="fa-solid fa-clock"></i>
+          </div>
+          <h3 class="feature-title">24/7 Access</h3>
+          <p class="feature-description">Your schedule, your terms. Access our secure facilities at any hour of the day or night.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card reveal-on-scroll" id="feature-card-2">
+          <div class="feature-icon-wrapper lime-glow">
+            <i class="fa-solid fa-dumbbell"></i>
+          </div>
+          <h3 class="feature-title">Elite Training Turf</h3>
+          <p class="feature-description">Vast powerlifting platforms, premium bumper plates, and a dedicated athletic turf field.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card reveal-on-scroll" id="feature-card-3">
+          <div class="feature-icon-wrapper cyan-glow">
+            <i class="fa-solid fa-users"></i>
+          </div>
+          <h3 class="feature-title">Certified Coaches</h3>
+          <p class="feature-description">Work with top-tier trainers to construct custom regimes tailored to your specific biomechanics.</p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card reveal-on-scroll" id="feature-card-4">
+          <div class="feature-icon-wrapper lime-glow">
+            <i class="fa-solid fa-droplet"></i>
+          </div>
+          <h3 class="feature-title">Steam Room & Sauna</h3>
+          <p class="feature-description">Accelerate recovery, flush out toxins, and relax in our high-end thermal suites post-workout.</p>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="feature-card reveal-on-scroll" id="feature-card-5">
+          <div class="feature-icon-wrapper cyan-glow">
+            <i class="fa-solid fa-apple-whole"></i>
+          </div>
+          <h3 class="feature-title">Custom Nutrition</h3>
+          <p class="feature-description">In-house nutritionists design actionable diet blueprints that synergize with your workouts.</p>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="feature-card reveal-on-scroll" id="feature-card-6">
+          <div class="feature-icon-wrapper lime-glow">
+            <i class="fa-solid fa-heart-pulse"></i>
+          </div>
+          <h3 class="feature-title">Bio-Metrics Tracking</h3>
+          <p class="feature-description">Monitor progress using advanced 3D body scanners and dynamic performance testing analytics.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Membership Pricing Section -->
+  <section class="pricing" id="pricing">
+    <div class="section-container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-tag highlight-neon-cyan">MEMBERSHIP TIERS</span>
+        <h2 class="section-title">CHOOSE YOUR FORGE LEVEL</h2>
+        <p class="section-subtitle">No hidden fees. Flexible plans designed to fit your fitness ambition.</p>
+      </div>
+
+      <!-- Billing Toggle Switch -->
+      <div class="billing-toggle-container reveal-on-scroll">
+        <span class="toggle-label active" id="toggle-monthly">Monthly Billing</span>
+        <button class="billing-toggle-switch" id="billing-toggle" aria-label="Toggle billing cycle">
+          <span class="billing-toggle-knob"></span>
+        </button>
+        <span class="toggle-label" id="toggle-yearly">Yearly Billing <span class="discount-badge">Save up to 40%</span></span>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Monthly Tier -->
+        <div class="pricing-card reveal-on-scroll" id="pricing-card-monthly">
+          <div class="pricing-header">
+            <h3 class="tier-name">Monthly Pass</h3>
+            <div class="price-container">
+              <span class="currency">$</span>
+              <span class="price" data-price-monthly="49" data-price-yearly="39">49</span>
+              <span class="period">/mo</span>
+            </div>
+            <p class="tier-billing" data-billing-monthly="Billed monthly, cancel anytime" data-billing-yearly="Billed annually ($468/yr)">Billed monthly, cancel anytime</p>
+          </div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li><i class="fa-solid fa-circle-check"></i> Standard hours access (5AM - 10PM)</li>
+            <li><i class="fa-solid fa-circle-check"></i> Full gym floor & cardio deck</li>
+            <li><i class="fa-solid fa-circle-check"></i> Locker room & showers</li>
+            <li class="disabled"><i class="fa-solid fa-circle-xmark"></i> 24/7 Access</li>
+            <li class="disabled"><i class="fa-solid fa-circle-xmark"></i> Access to Steam Room & Sauna</li>
+            <li class="disabled"><i class="fa-solid fa-circle-xmark"></i> 1-on-1 Monthly Coaching</li>
+          </ul>
+          <button class="btn-pricing-cta open-booking-modal-btn" data-plan="Monthly Membership ($49/mo)" id="btn-select-monthly">
+            Choose Plan
+          </button>
+        </div>
+
+        <!-- Annual Tier (Popular/Best Value) -->
+        <div class="pricing-card popular reveal-on-scroll" id="pricing-card-annual">
+          <div class="popular-tag">BEST VALUE</div>
+          <div class="pricing-header">
+            <h3 class="tier-name">Annual Forge</h3>
+            <div class="price-container">
+              <span class="currency">$</span>
+              <span class="price" data-price-monthly="45" data-price-yearly="29">29</span>
+              <span class="period">/mo</span>
+            </div>
+            <p class="tier-billing" data-billing-monthly="Billed monthly ($45/mo)" data-billing-yearly="Billed annually ($348/yr)">Billed annually ($348/yr)</p>
+          </div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li><i class="fa-solid fa-circle-check highlight-neon-lime"></i> <strong>24/7 Unlimited Access</strong></li>
+            <li><i class="fa-solid fa-circle-check highlight-neon-lime"></i> Access to all 150+ locations</li>
+            <li><i class="fa-solid fa-circle-check highlight-neon-lime"></i> Unlimited Steam Room & Sauna</li>
+            <li><i class="fa-solid fa-circle-check highlight-neon-lime"></i> 1x Monthly Elite Coaching Session</li>
+            <li><i class="fa-solid fa-circle-check highlight-neon-lime"></i> 5 Guest passes per month</li>
+            <li><i class="fa-solid fa-circle-check highlight-neon-lime"></i> Free FlexForge welcome pack</li>
+          </ul>
+          <button class="btn-pricing-cta btn-popular-cta open-booking-modal-btn" data-plan="Annual Membership ($29/mo)" id="btn-select-annual">
+            Choose Plan
+          </button>
+        </div>
+
+        <!-- Quarterly Tier -->
+        <div class="pricing-card reveal-on-scroll" id="pricing-card-quarterly">
+          <div class="pricing-header">
+            <h3 class="tier-name">Quarterly Pass</h3>
+            <div class="price-container">
+              <span class="currency">$</span>
+              <span class="price" data-price-monthly="39" data-price-yearly="32">39</span>
+              <span class="period">/mo</span>
+            </div>
+            <p class="tier-billing" data-billing-monthly="Billed quarterly ($117/qtr)" data-billing-yearly="Billed annually ($384/yr)">Billed quarterly ($117/qtr)</p>
+          </div>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li><i class="fa-solid fa-circle-check"></i> <strong>24/7 Unlimited Access</strong></li>
+            <li><i class="fa-solid fa-circle-check"></i> Full gym floor & cardio deck</li>
+            <li><i class="fa-solid fa-circle-check"></i> Locker room & showers</li>
+            <li><i class="fa-solid fa-circle-check"></i> 2 Guest passes per month</li>
+            <li class="disabled"><i class="fa-solid fa-circle-xmark"></i> Unlimited Steam Room & Sauna</li>
+            <li class="disabled"><i class="fa-solid fa-circle-xmark"></i> 1-on-1 Monthly Coaching</li>
+          </ul>
+          <button class="btn-pricing-cta open-booking-modal-btn" data-plan="Quarterly Membership ($39/mo)" id="btn-select-quarterly">
+            Choose Plan
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive BMI Calculator Section -->
+  <section class="bmi-section" id="bmi">
+    <div class="section-container">
+      <div class="bmi-layout">
+        
+        <!-- Info Column -->
+        <div class="bmi-info-col reveal-on-scroll">
+          <span class="section-tag highlight-neon-lime">HEALTH ANALYTICS</span>
+          <h2 class="section-title">KNOW YOUR BMI METRICS</h2>
+          <p class="bmi-text">
+            Body Mass Index (BMI) is a convenient metric used to categorize weight levels relative to height. Use this instant calculator to see your classification range.
+          </p>
+          <div class="bmi-ranges-legend">
+            <div class="legend-item"><span class="legend-color underweight"></span> Underweight: &lt; 18.5</div>
+            <div class="legend-item"><span class="legend-color normal"></span> Healthy Weight: 18.5 – 24.9</div>
+            <div class="legend-item"><span class="legend-color overweight"></span> Overweight: 25.0 – 29.9</div>
+            <div class="legend-item"><span class="legend-color obese"></span> Obese: 30.0+</div>
+          </div>
+        </div>
+
+        <!-- Calculator Form Column -->
+        <div class="bmi-calc-col reveal-on-scroll">
+          <div class="bmi-card glass-panel">
+            <h3 class="bmi-card-title">BMI Calculator</h3>
+            <form id="bmi-form">
+              <div class="form-group-flex">
+                <div class="form-group">
+                  <div class="label-flex">
+                    <label for="bmi-height">Height</label>
+                    <span class="val-display"><span id="height-val">175</span> cm</span>
+                  </div>
+                  <div class="input-wrapper">
+                    <input type="number" id="bmi-height" placeholder="e.g. 175" min="100" max="250" value="175" required>
+                    <span class="input-suffix">cm</span>
+                  </div>
+                  <input type="range" id="bmi-height-slider" min="100" max="250" value="175" class="bmi-slider">
+                </div>
+                <div class="form-group">
+                  <div class="label-flex">
+                    <label for="bmi-weight">Weight</label>
+                    <span class="val-display"><span id="weight-val">70</span> kg</span>
+                  </div>
+                  <div class="input-wrapper">
+                    <input type="number" id="bmi-weight" placeholder="e.g. 70" min="30" max="200" value="70" required>
+                    <span class="input-suffix">kg</span>
+                  </div>
+                  <input type="range" id="bmi-weight-slider" min="30" max="200" value="70" class="bmi-slider">
+                </div>
+              </div>
+              
+              <button type="submit" class="btn-neon-fill-cyan" id="btn-calculate-bmi">
+                Calculate BMI <i class="fa-solid fa-calculator"></i>
+              </button>
+            </form>
+
+            <!-- BMI Result Display (Hidden by default, shown via JS) -->
+            <div class="bmi-result-box hidden" id="bmi-result-box">
+              <div class="bmi-result-divider"></div>
+              <div class="bmi-score-wrapper">
+                <span class="bmi-score-label">Your BMI:</span>
+                <span class="bmi-score-value" id="bmi-value">--.-</span>
+              </div>
+              <div class="bmi-category-badge" id="bmi-category">Normal</div>
+              <p class="bmi-suggestion" id="bmi-suggestion">Keep up the training regime!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Lead Capture / Booking Modal -->
+  <div class="modal-overlay" id="booking-modal">
+    <div class="modal-content glass-panel" id="modal-container">
+      <button class="modal-close-btn" id="close-modal-btn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      
+      <div class="modal-header-section">
+        <h3 class="modal-title">FORGE YOUR PATH</h3>
+        <p class="modal-subtitle">Secure your free trial or finalize your membership tier selection.</p>
+      </div>
+      
+      <!-- Lead Form -->
+      <form id="lead-form" class="modal-form">
+        <!-- Error alert placeholder -->
+        <div class="form-alert alert-error hidden" id="form-error-alert">
+          <i class="fa-solid fa-triangle-exclamation"></i> <span id="error-message-text">Please resolve errors.</span>
+        </div>
+        
+        <!-- Success alert placeholder -->
+        <div class="form-alert alert-success hidden" id="form-success-alert">
+          <i class="fa-solid fa-circle-check"></i> <span>Trial Booked! We will contact you shortly.</span>
+        </div>
+
+        <div class="form-group">
+          <label for="lead-name">Full Name</label>
+          <div class="input-icon-wrapper">
+            <i class="fa-solid fa-user input-icon"></i>
+            <input type="text" id="lead-name" placeholder="John Doe" required minlength="2" maxlength="100">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="lead-phone">Phone Number</label>
+          <div class="input-icon-wrapper">
+            <i class="fa-solid fa-phone input-icon"></i>
+            <input type="tel" id="lead-phone" placeholder="+1 (555) 000-0000" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="lead-plan">Selected Plan</label>
+          <div class="input-icon-wrapper">
+            <i class="fa-solid fa-ticket input-icon"></i>
+            <select id="lead-plan" required>
+              <option value="" disabled>-- Select a Plan --</option>
+              <option value="Free 1-Day Pass">Free 1-Day Pass</option>
+              <option value="Monthly Membership ($49/mo)">Monthly Membership ($49/mo)</option>
+              <option value="Quarterly Membership ($39/mo)">Quarterly Membership ($39/mo)</option>
+              <option value="Annual Membership ($29/mo)">Annual Membership ($29/mo)</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-submit-lead" id="lead-submit-btn">
+          <span class="btn-text">BOOK FREE TRIAL</span>
+          <span class="spinner hidden" id="submit-spinner"><i class="fa-solid fa-spinner fa-spin"></i></span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer-section">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <!-- Logo & Brand statement -->
+        <div class="footer-col brand-col">
+          <a href="#" class="logo footer-logo">
+            <span class="logo-flex">FLEX</span><span class="logo-forge">FORGE</span>
+          </a>
+          <p class="footer-desc">
+            A premium strength and conditioning community built for those who push boundaries. No compromises. Raw results.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="footer-col Links-col">
+          <h4 class="footer-title">Explore</h4>
+          <ul class="footer-links-list">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Membership</a></li>
+            <li><a href="#bmi">BMI Calculator</a></li>
+            <li><a href="#site-header" class="open-booking-modal-btn" data-plan="Free 1-Day Pass">Free Pass</a></li>
+          </ul>
+        </div>
+
+        <!-- Gym Contact & Hours info -->
+        <div class="footer-col contact-col">
+          <h4 class="footer-title">Headquarters</h4>
+          <p class="contact-detail"><i class="fa-solid fa-location-dot"></i> 100 Performance Way, Austin, TX 78701</p>
+          <p class="contact-detail"><i class="fa-solid fa-phone"></i> +1 (555) 456-7890</p>
+          <p class="contact-detail"><i class="fa-solid fa-envelope"></i> info@flexforgefitness.com</p>
+          <p class="contact-detail"><i class="fa-solid fa-calendar-days"></i> Hours: 24/7/365 (Staffed 6AM-9PM)</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 FlexForge Fitness. All Rights Reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <span class="divider-dot"></span>
+          <a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
