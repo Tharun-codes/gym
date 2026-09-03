@@ -1,6 +1,6 @@
 /* ==========================================================================
    FLEXFORGE FITNESS - PROFESSIONAL CYBER-NEON STYLING SYSTEM
-   Theme: Dark Charcoal, Cyber Cyan, Neon Lime, Custom Micro-Animations
+   Theme: Dark Charcoal, Cyber Cyan, Pink, Custom Micro-Animations
    ========================================================================== */
 
 /* Design Tokens & Theme Variables */
@@ -11,9 +11,9 @@
   --bg-card-hover: #1e1e1e;
   
   /* Cyber Neon Accents */
-  --neon-lime: #CCFF00;
+  --neon-lime: #981260;
   --neon-lime-rgb: 204, 255, 0;
-  --neon-lime-glow: rgba(204, 255, 0, 0.45);
+  --neon-lime-glow: rgba(237, 14, 177, 0.45);
   
   --neon-cyan: #00F0FF;
   --neon-cyan-rgb: 0, 240, 255;
@@ -136,7 +136,7 @@ a {
 
 /* Buttons */
 .btn-neon-fill {
-  background: linear-gradient(135deg, var(--neon-lime) 0%, #aade00 100%);
+  background: linear-gradient(135deg, var(--pink) 0%, #de0064 100%);
   color: var(--bg-black);
   border: none;
   font-family: var(--font-headings);
@@ -185,13 +185,13 @@ a {
 
 .btn-neon-fill-cyan:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 30px rgba(204, 255, 0, 0.4);
+  box-shadow: 0 12px 30px rgba(255, 0, 144, 0.4);
   background: linear-gradient(135deg, var(--neon-lime) 0%, #aade00 100%);
 }
 
 .btn-neon-outline {
   background: transparent;
-  color: var(--neon-lime);
+  color: var(--pink);
   border: 2px solid var(--neon-lime);
   font-family: var(--font-headings);
   font-weight: 800;
@@ -294,7 +294,7 @@ a {
 
 .logo-forge {
   color: var(--neon-lime);
-  text-shadow: 0 0 12px rgba(204, 255, 0, 0.45);
+  text-shadow: 0 0 12px rgba(255, 0, 136, 0.45);
 }
 
 .navbar {
